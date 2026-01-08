@@ -7,9 +7,9 @@ This is a simple Node.js + Express application containerized using Docker.
 The project demonstrates how to build, run, and deploy a Node.js app using Docker.
 
 ---
-
+````
 ## 📂 Project Structure
-```
+````
 
 .
 ├── Dockerfile
@@ -40,7 +40,7 @@ The project demonstrates how to build, run, and deploy a Node.js app using Docke
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Build Docker Image
-```bash
+````
 docker build -t docker-node-app .
 ````
 
