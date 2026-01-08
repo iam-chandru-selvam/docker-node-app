@@ -3,7 +3,7 @@
 ```md
 # Dockerized Node.js Application 🐳🚀
 
-This is a simple **Node.js + Express** application containerized using **Docker**.  
+This is a simple Node.js + Express application containerized using Docker.  
 The project demonstrates how to build, run, and deploy a Node.js app using Docker.
 
 ---
@@ -30,9 +30,9 @@ The project demonstrates how to build, run, and deploy a Node.js app using Docke
 ---
 
 ## 🐳 Dockerfile Overview
-- Uses official **Node.js 21** image
+- Uses official Node.js 21 image
 - Installs dependencies using `npm install`
-- Exposes port **8909**
+- Exposes port 8909
 - Runs the app using `node server.js`
 
 ---
@@ -46,9 +46,9 @@ docker build -t docker-node-app .
 
 ### 2️⃣ Run Docker Container
 
-```bash
+````
 docker run -p 8909:8909 docker-node-app
-```
+````
 
 ---
 
@@ -82,14 +82,12 @@ You should see:
 **Chandru S**
 B.E CSE | Anna University
 
-````
-
 ---
 
 ## ✅ Next Steps (Very Important)
 After creating `README.md`:
 
-```bash
+````
 git add README.md
 git commit -m "Add README documentation"
 git push
