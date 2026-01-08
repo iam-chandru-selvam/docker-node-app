@@ -1,12 +1,11 @@
 ## 📄 `README.md`
 
-```md
 # Dockerized Node.js Application 🐳🚀
 
 This is a simple Node.js + Express application containerized using Docker.  
 The project demonstrates how to build, run, and deploy a Node.js app using Docker.
 
----
+
 ````
 ## 📂 Project Structure
 ````
